@@ -1,0 +1,73 @@
+.product-main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .pheading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+    padding: 20px;
+  }
+  
+  .product-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  }
+  
+  .product-link:hover {
+    background-color: #45a049;
+    color: white;
+  }
+  
+  .product-container {
+    padding: 20px;
+    border-bottom: 1px solid #45a049;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .product- details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .product-id {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .rental-options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .rental-option {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,48 @@
+.home-screen-container {
+  text-align: center;
+}
+
+.header {
+  padding: 10px 0;
+}
+
+.header-links {
+  display: flex;
+  justify-content: center;
+}
+
+.header-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.welcome-heading {
+  margin-top: 50px;
+  font-size: 32px;
+}
+
+.welcome-message {
+  margin-bottom: 20px;
+}
+
+.center-content {
+  margin-top: 50px;
+}
+
+.service-description {
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.center-content img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Hover effect on the image */
+.center-content img:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,53 @@
+/* HomePage.css */
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4a5568; /* You can change this color */
+    color: white;
+    padding: 0 20px;
+    height: 80px;
+  }
+  
+  .header-box h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .options {
+    ul {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+    }
+  
+    a {
+      color: white;
+      text-decoration: none;
+      margin-left: 15px;
+      cursor: pointer;
+    }
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .header-box {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+    }
+  
+    .options {
+      ul {
+        flex-direction: column;
+      }
+  
+      a {
+        margin: 5px 0;
+      }
+    }
+  }
+  

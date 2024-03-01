@@ -1,0 +1,60 @@
+.invoice-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .invoice-address-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .invoice-address-container h1 {
+    margin: 0;
+  }
+  
+  .invoice-address-container h2 {
+    margin-top: 0;
+  }
+  
+  .invoice-address-container address {
+    margin: 0;
+  }
+  
+  .product-container {
+    text-align: center;
+  }
+  
+  .product-container h1 {
+    margin-top: 0;
+  }
+  
+  .product-container p {
+    margin-bottom: 10px;
+  }
+  
+  .product-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-container ul li {
+    margin-bottom: 5px;
+  }
+  
+  .product-container ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .product-container ul li b {
+    font-size: 1.1em;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
